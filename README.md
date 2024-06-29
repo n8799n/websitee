@@ -36,6 +36,10 @@
         }
         section {
             padding: 2em;
+            margin: 1em;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         footer {
             background-color: #333;
@@ -48,6 +52,11 @@
         }
         h2 {
             color: #4CAF50;
+        }
+        .highlight {
+            background-color: #ffeb3b;
+            padding: 0.5em;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -65,7 +74,7 @@
     </nav>
     <section id="about">
         <h2>About Me</h2>
-        <p>I am a 19-year-old junior student at the Faculty of Commerce and Business Administration in Helwan University, majoring in Financial Markets and Institutions. I am aiming to specialize in risk management.</p>
+        <p>I am a <span class="highlight">19-year-old junior student</span> at the Faculty of Commerce and Business Administration in Helwan University, majoring in Financial Markets and Institutions. I am aiming to specialize in risk management.</p>
     </section>
     <section id="projects">
         <h2>Projects</h2>
@@ -76,19 +85,4 @@
         <p>This section will explain the purpose of your website.</p>
     </section>
     <section id="benefit">
-        <h2>How Can You Benefit?</h2>
-        <p>This section will describe how visitors can benefit from your skills and expertise.</p>
-    </section>
-    <section id="resources">
-        <h2>Resources</h2>
-        <p>Links and resources relevant to your field will be placed here.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Provide your contact details or a contact form here.</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 Nada Tarek</p>
-    </footer>
-</body>
-</html>
+ 
