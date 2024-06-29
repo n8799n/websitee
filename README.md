@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
     <title>Nada Tarek - Personal Webpage</title>
     <style>
         body {
@@ -14,7 +14,7 @@
         }
         header {
             background-color: #4CAF50;
-            color: white;
+            color: green;
             padding: 1em 0;
             text-align: center;
         }
@@ -25,7 +25,7 @@
         nav a {
             float: left;
             display: block;
-            color: white;
+            color: red;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
@@ -38,8 +38,8 @@
             padding: 2em;
             margin: 1em;
             border-radius: 8px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: green;
+            box-shadow: 0 0 10px rgba(255, 180, 120, 0.1);
         }
         footer {
             background-color: #333;
@@ -62,11 +62,11 @@
 </head>
 <body>
     <header>
-        <h1>Nada Tarek</h1>
+        <h1>Communicate</h1>
     </header>
     <nav>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
+        <a href="#about">About is</a>
+        <a href="#projects">Project</a>
         <a href="#whatisthis">What is This?</a>
         <a href="#benefit">How Can You Benefit?</a>
         <a href="#resources">Resources</a>
